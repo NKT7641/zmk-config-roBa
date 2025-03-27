@@ -15,6 +15,18 @@
 };
 
 / {
+    behaviors {
+        to_layer_0: to_layer_0 {
+            compatible = "zmk,behavior-to-layer";
+            label = "TO_LAYER_0";
+        };
+
+        inc_dec_kp: inc_dec_kp {
+            compatible = "zmk,behavior-sensor-rotate";
+            bindings = <&kp LC(PAGE_UP)>, <&kp LC(PAGE_DOWN)>;
+        };
+    };
+
     trackball_listener {
         compatible = "zmk,input-listener";
         device = <&trackball>;
