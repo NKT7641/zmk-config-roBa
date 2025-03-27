@@ -67,10 +67,10 @@
 
         shortcut-browsing {
             bindings = <
-&kp ESCAPE  &kp LG(W)     &kp TAB       &kp LC(UP)  &none                                            &kp LG(KP_NUMBER_0)  &kp F15        &kp F13   &kp UP           &kp F14
-&kp LG(A)   &kp LG(S)     &kp LG(D)     &kp LG(F)   &none        &none               &kp MINUS       &kp LG(PLUS)         &kp LG(RIGHT)  &kp LEFT  &kp DOWN         &kp RIGHT
-&kp LG(Z)   &kp LG(X)     &kp LG(C)     &kp LG(V)   &none        &kp LANGUAGE_1      &kp LANGUAGE_4  &kp LG(MINUS)        &kp LG(LEFT)   &mkp MB1  &lt 5 PAGE_DOWN  &mkp MB2
-&kp LCTRL   &kp LEFT_WIN  &kp LEFT_ALT  &mo 3       &lt 2 SPACE  &mo 1               &kp BACKSPACE   &kp ENTER                                                      &kp DEL
+&kp ESCAPE  &kp LG(W)     &kp TAB       &kp LC(UP)  &none                                            &kp LG(KP_NUMBER_0)  &kp F15        &kp F13   &kp UP    &kp F14
+&kp LG(A)   &kp LG(S)     &kp LG(D)     &kp LG(F)   &none        &none               &kp MINUS       &kp LG(PLUS)         &kp LG(RIGHT)  &kp LEFT  &kp DOWN  &kp RIGHT
+&kp LG(Z)   &kp LG(X)     &kp LG(C)     &kp LG(V)   &none        &kp LANGUAGE_1      &kp LANGUAGE_4  &kp LG(MINUS)        &kp LG(LEFT)   &mkp MB1  &mo 5     &mkp MB2
+&kp LCTRL   &kp LEFT_WIN  &kp LEFT_ALT  &mo 3       &lt 2 SPACE  &mo 1               &kp BACKSPACE   &kp ENTER                                               &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
